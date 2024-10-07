@@ -8,7 +8,7 @@ def insertion_sort(A, n) :
       j = j - 1 # 위치를 왼쪽으로 이동
     A[j + 1] = key
     
-data = [ 5, 3, 8, 4, 9, 1, 6, 2, 7 ]
+data = [ 5, 3, 8, 4, 9, 11 ,10, 1, 6, 2, 7 ]
 print(" Original:", data)
 insertion_sort(data, len(data))
 print("Insertion:", data)
