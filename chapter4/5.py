@@ -14,9 +14,9 @@ def power(x, n) :
   
 import time # time 모듈 포함
 t1 = time.time()
-for i in range(100000) : power(2., 500) # 축소정복 10만회
+for i in range(50000) : power(2., 500) # 축소정복 5만회
 t2 = time.time()
-for i in range(100000) : slow_power(2., 500) # 억지기법 10만회
+for i in range(50000) : slow_power(2., 500) # 억지기법 5만회
 t3 = time.time()
 
 print(" 억지기법 시간... ", t3-t2)

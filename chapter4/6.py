@@ -26,7 +26,7 @@ def kth_smallest_sort(A, k):
   A.sort()
   return A[k-1]
 
-array = [12, 3, 5, 7, 4, 19, 26, 23, 15]
+array = [12, 3, 5, 6, 7, 4, 18, 19, 26, 23, 15]
 print("입력 리스트 =", array)
 print("[정렬기법] 3번째 작은 수: ", kth_smallest_sort(array[:], 3))
 print("[정렬기법] 6번째 작은 수: ", kth_smallest_sort(array[:], 6))
